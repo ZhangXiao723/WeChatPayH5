@@ -79,5 +79,5 @@ $arr = array(
 if($result_url){
     json_return(ERROR_CODE_SUCCESS, $arr, '');
 }else{
-    json_return(ERROR_CODE_FAIL, '', '发起支付请求失败，请重试');
+    json_return(ERROR_CODE_FAIL, '', '发起支付请求失败，请重试212121');
 }
